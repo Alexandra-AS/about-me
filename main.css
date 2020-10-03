@@ -63,3 +63,16 @@ img:hover {
 .links li{
   display:inline;
 }
+.all{
+  font-family: "Catamaran";
+  font-weight:500;
+  line-height:1.2;
+  letter-spacing: 1px;
+}
+.passions h4{
+  margin-left:10px;
+}
+.links ul{
+ margin-right: 40px;
+}
+}
