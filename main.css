@@ -36,16 +36,30 @@ body{
   background: url('https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') no-repeat center center fixed;
   background-size:cover;
 }
-.all, .about, .passions, .links, .profile-image{
-  background-color: hsla(266, 91%, 62%, 0);
+.all{
+  background-color: hsla(266, 91%, 62%, 0.2);
   border-radius: 4px;
   box-shadow: hsla (0, 0%, 0%, .8) 10px 10px 80px;
 }
 img {
   padding: 3px;
-  background-color: #666;
+  background-color: hsla(266, 85%, 62%, 0.1);
+  border-top: 3px solid hsla(298, 68%, 50%, 0.2);
 }
 img:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
+}
+.about {
+  border-top: 3px solid hsla(298, 68%, 50%, 0.2);
+  padding: 3%
+}
+.links{
+  border-top: 3px solid hsla(298, 68%, 50%, 0.2);
+}
+.links ul{
+  list-style-type:none;  
+}
+.links li{
+  display:inline;
 }
