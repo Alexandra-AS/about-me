@@ -1,78 +1,15 @@
-
-.all {
-  width: 430px;
-  max-width: calc(100vw - 10px);
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body {
-  height: 100vh;
-}
-.head, .links {
-  text-align: center;
-}
-.head, .content {
-  width: 90%;
-  margin: 0 auto;
-}
-img {
-  width:100px;
-  height: 130px;
-  border-radius:8px;   
-  
-}
-.profile-image {
-  margin-left:auto;
-  margin-right: auto;
-  width:24%;
-}
-.about, .passions, .links{
-  margin-bottom: 10%
-}
-body{
-  background: url('https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') no-repeat center center fixed;
-  background-size:cover;
+.profile-image{
+  background-color: rgba(171, 33, 100, 0.6);
 }
 .all{
-  background-color: hsla(266, 91%, 62%, 0.2);
-  border-radius: 4px;
-  box-shadow: hsla (0, 0%, 0%, .8) 10px 10px 80px;
+  background-color: rgba(47, 47, 53, 0.2);
 }
-img {
-  padding: 3px;
-  background-color: hsla(266, 85%, 62%, 0.1);
-  border-top: 3px solid hsla(298, 68%, 50%, 0.2);
-}
-img:hover {
-  transform: scale(1.1);
-  transition: all 0.5s ease-in-out;
-}
-.about {
-  border-top: 3px solid hsla(298, 68%, 50%, 0.2);
-  padding: 3%
-}
-.links{
-  border-top: 3px solid hsla(298, 68%, 50%, 0.2);
-}
-.links ul{
-  list-style-type:none;  
-}
-.links li{
-  display:inline;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
 }
 .all{
-  font-family: "Catamaran";
-  font-weight:500;
-  line-height:1.2;
-  letter-spacing: 1px;
-}
-.passions h4{
-  margin-left:10px;
-}
-.links ul{
- margin-right: 40px;
-}
+  width:500px;
 }
